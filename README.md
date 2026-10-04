@@ -1,14 +1,14 @@
 <div align="center">
 
-# ⚡ Trade Matching Engine
+# ⚡ Apex Matching Engine
 
-**Ultra-Low Latency In-Memory Continuous Double Auction Order Matching Engine & Real-Time Market Data Streamer**
+**Ultra-Low Latency Continuous Double Auction Order Matching Engine & Real-Time Market Data Streamer (Java 21 Loom, STOMP WebSockets, L2 Depth)**
 
-[![Java](https://img.shields.io/badge/Java-17-0891b2?style=flat-square&logo=openjdk&logoColor=white)](https://openjdk.org/)
+[![Java](https://img.shields.io/badge/Java-21-0891b2?style=flat-square&logo=openjdk&logoColor=white)](https://openjdk.org/)
 [![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.3.5-0891b2?style=flat-square&logo=springboot&logoColor=white)](https://spring.io/projects/spring-boot)
 [![WebSockets](https://img.shields.io/badge/WebSockets-STOMP-0891b2?style=flat-square&logo=socketdotio&logoColor=white)](https://spring.io/)
 [![Docker](https://img.shields.io/badge/Docker-Multi--Stage-0891b2?style=flat-square&logo=docker&logoColor=white)](https://www.docker.com/)
-[![CI](https://img.shields.io/badge/CI-GitHub_Actions-0891b2?style=flat-square&logo=githubactions&logoColor=white)](https://github.com/ronitgupta138/trade-matching-engine/actions)
+[![CI](https://img.shields.io/badge/CI-GitHub_Actions-0891b2?style=flat-square&logo=githubactions&logoColor=white)](https://github.com/ronitgupta138/apex-matching-engine/actions)
 
 </div>
 
@@ -89,8 +89,8 @@ Trade Matching Engine is a high-performance, in-memory **Continuous Double Aucti
 ## 🚀 Quick Start (Docker)
 
 ```bash
-git clone https://github.com/ronitgupta138/trade-matching-engine.git
-cd trade-matching-engine
+git clone https://github.com/ronitgupta138/apex-matching-engine.git
+cd apex-matching-engine
 
 # Run matching engine container
 docker compose up --build -d
