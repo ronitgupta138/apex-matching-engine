@@ -1,15 +1,15 @@
 <div align="center">
 
 ```text
- █████╗ ██████╗ ███████╗██╗  ██╗    ███████╗███╗   ██╗ ██████╗ ██╗███╗   ██╗███████╗
-██╔══██╗██╔══██╗██╔════╝╚██╗██╔╝    ██╔════╝████╗  ██║██╔════╝ ██║████╗  ██║██╔════╝
-███████║██████╔╝█████╗   ╚███╔╝     █████╗  ██╔██╗ ██║██║  ███╗██║██╔██╗ ██║█████╗  
-██╔══██║██╔═══╝ ██╔══╝   ██╔██╗     ██╔══╝  ██║╚██╗██║██║   ██║██║██║╚██╗██║██╔══╝  
-██║  ██║██║     ███████╗██╔╝ ██╗    ███████╗██║ ╚████║╚██████╔╝██║██║ ╚████║███████╗
-╚═╝  ╚═╝╚═╝     ╚══════╝╚═╝  ╚═╝    ╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝╚═╝  ╚═══╝╚══════╝
+ █████╗ ██████╗ ███████╗██╗  ██╗
+██╔══██╗██╔══██╗██╔════╝╚██╗██╔╝
+███████║██████╔╝█████╗   ╚███╔╝ 
+██╔══██║██╔═══╝ ██╔══╝   ██╔██╗ 
+██║  ██║██║     ███████╗██╔╝ ██╗
+╚═╝  ╚═╝╚═╝     ╚══════╝╚═╝  ╚═╝
 ```
 
-### **Ultra-Low Latency Continuous Double Auction Order Matching Engine & Real-Time Market Data Streamer**
+### **Apex Matching Engine — Ultra-Low Latency Continuous Double Auction Order Book in Java 21**
 
 [![Java](https://img.shields.io/badge/Java-21-0891b2?style=flat-square&logo=openjdk&logoColor=white)](https://openjdk.org/)
 [![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.3.5-0891b2?style=flat-square&logo=springboot&logoColor=white)](https://spring.io/projects/spring-boot)
