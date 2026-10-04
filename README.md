@@ -1,8 +1,15 @@
 <div align="center">
 
-# ⚡ Apex Matching Engine
+```text
+ █████╗ ██████╗ ███████╗██╗  ██╗    ███████╗███╗   ██╗ ██████╗ ██╗███╗   ██╗███████╗
+██╔══██╗██╔══██╗██╔════╝╚██╗██╔╝    ██╔════╝████╗  ██║██╔════╝ ██║████╗  ██║██╔════╝
+███████║██████╔╝█████╗   ╚███╔╝     █████╗  ██╔██╗ ██║██║  ███╗██║██╔██╗ ██║█████╗  
+██╔══██║██╔═══╝ ██╔══╝   ██╔██╗     ██╔══╝  ██║╚██╗██║██║   ██║██║██║╚██╗██║██╔══╝  
+██║  ██║██║     ███████╗██╔╝ ██╗    ███████╗██║ ╚████║╚██████╔╝██║██║ ╚████║███████╗
+╚═╝  ╚═╝╚═╝     ╚══════╝╚═╝  ╚═╝    ╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝╚═╝  ╚═══╝╚══════╝
+```
 
-**Ultra-Low Latency Continuous Double Auction Order Matching Engine & Real-Time Market Data Streamer (Java 21 Loom, STOMP WebSockets, L2 Depth)**
+### **Ultra-Low Latency Continuous Double Auction Order Matching Engine & Real-Time Market Data Streamer**
 
 [![Java](https://img.shields.io/badge/Java-21-0891b2?style=flat-square&logo=openjdk&logoColor=white)](https://openjdk.org/)
 [![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.3.5-0891b2?style=flat-square&logo=springboot&logoColor=white)](https://spring.io/projects/spring-boot)
@@ -16,7 +23,7 @@
 
 ## 📌 Architectural Overview
 
-Trade Matching Engine is a high-performance, in-memory **Continuous Double Auction Order Book** implementing strict **Price-Time Priority (FIFO)** execution semantics used by tier-1 exchanges and electronic trading desks.
+Apex Matching Engine is a high-performance, in-memory **Continuous Double Auction Order Book** implementing strict **Price-Time Priority (FIFO)** execution semantics used by tier-1 exchanges and electronic trading desks.
 
 ```
                   [ Incoming Order Stream ]
