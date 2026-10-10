@@ -1,0 +1,42 @@
+name: "Bug Report"
+description: "File a bug report or reproducible crash in agent-2pc"
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks for taking the time to report an issue in `agent-2pc`!"
+  - type: input
+    id: version
+    attributes:
+      label: "agent-2pc Version"
+      description: "Run `agent-2pc --version`"
+      placeholder: "e.g., 0.1.0"
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: "Operating System & Environment"
+      placeholder: "e.g., Ubuntu 24.04 / Linux Mint 22, Rust 1.80+"
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: "Steps to Reproduce"
+      description: "CLI commands or batch manifest that trigger the issue"
+      placeholder: "1. agent-2pc begin\n2. agent-2pc stage-write ...\n3. agent-2pc commit"
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: "Expected Behavior"
+      placeholder: "What should have happened according to 2PC protocol invariants?"
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: "Error Output / WAL Logs"
+      placeholder: "Paste stdout/stderr or output with --json"

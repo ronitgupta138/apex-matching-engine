@@ -1,0 +1,28 @@
+name: "Feature Request / New Adapter"
+description: "Suggest a new ResourceManager adapter or coordinator enhancement"
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: "Have an idea for a new storage adapter, agent protocol, or optimization?"
+  - type: input
+    id: title
+    attributes:
+      label: "Proposal Summary"
+      placeholder: "e.g., Add Docker/Podman container adapter with ephemeral namespaces"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: "Problem / Motivation"
+      placeholder: "What agent workflow or failure mode does this solve?"
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: "Proposed 2PC Contract"
+      placeholder: "Describe how Phase 1 (prepare) stages changes and Phase 2 (commit/abort) executes rollback"
+    validations:
+      required: true
